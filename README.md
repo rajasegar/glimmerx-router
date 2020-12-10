@@ -1,39 +1,38 @@
-# glimmerx-router
-Declarative routing for glimmerx (WIP)
+glimmerx-router
+==============================================================================
+
+[Short description of the addon.]
 
 
-## Install
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
+
+
+Installation
+------------------------------------------------------------------------------
+
 ```
-yarn add glimmerx-router
+ember install glimmerx-router
 ```
 
-## Usage
-```js
-import Component, { hbs } from '@glimmerx/component';
-import Router from './Router.js';
-import Route from './Route.js';
-import Link from './Link.js';
-import About from './About.js';
-import Contact from './Contact.js';
 
-export default class App extends Component {
-  About = About;
-  Contact = Contact;
+Usage
+------------------------------------------------------------------------------
 
-  static template = hbs`
-    <div id="intro">
-      <h1>hello, glimmerx!</h1>
-      <Router>
-        <nav>
-          <ul>
-            <li><Link @to="/about">About</Link></li>
-            <li><Link @to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
-        <Route @path="/about" @component={{this.About}}/>
-        <Route @path="/contact" @component={{this.Contact}}/>
-      </Router>
-    </div>
-  `;
-}
-```
+[Longer description of how to use the addon in apps.]
+
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).

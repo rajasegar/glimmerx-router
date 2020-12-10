@@ -1,3 +1,3 @@
-export { default as Router } from './src/Router';
-export { default as Route } from './src/Route';
-export { default as Link } from './src/Link';
+export { default as Router } from './addon/components/router';
+export { default as Route } from './addon/components/route';
+export { default as Link } from './addon/components/link';
