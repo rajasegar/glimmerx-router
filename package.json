@@ -1,0 +1,26 @@
+{
+  "name": "glimmerx-router",
+  "version": "0.0.0",
+  "description": "Declarative routing for glimmerx",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasegar/glimmerx-router.git"
+  },
+  "keywords": ["glimmer","router", "glimmerjs", "glimmerx"],
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajasegar/glimmerx-router/issues"
+  },
+  "homepage": "https://github.com/rajasegar/glimmerx-router#readme",
+  "dependencies": {
+    "@glimmerx/component": "^0.3.0",
+    "@glimmerx/core": "^0.3.0"
+  }
+}
